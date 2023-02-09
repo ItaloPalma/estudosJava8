@@ -1,7 +1,6 @@
-package italo.estudosJava8.Lambda;
+package italo.estudosJava8.Examples;
 
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Component;
 
 import java.util.Comparator;
 
@@ -15,8 +14,8 @@ public class LambdaExample {
 
         r.run();
 
-        //*Implementando o lambda diretamente no atributo do método
-        //*A interface Funcional do Runnable permite isso
+        //*Implementando o lambda diretamente no atributo do método Thread
+        //*Por ser uma interface Funcional o Runnable permite isso
         new Thread(()->log.info("Lambda Diretamente na Thread - Interface Funcional")).start();
 
         Comparator<Integer> comparator = (Integer x, Integer y) -> x.compareTo(y);

@@ -1,8 +1,7 @@
-package italo.estudosJava8.Lambda;
+package italo.estudosJava8.Examples;
 
 import lombok.extern.slf4j.Slf4j;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
