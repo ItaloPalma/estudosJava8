@@ -9,6 +9,7 @@ import lombok.extern.slf4j.Slf4j;
 @NoArgsConstructor
 @ToString
 @Slf4j
+@Builder
 public class Cliente {
 
     String nome;
